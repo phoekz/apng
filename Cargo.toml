@@ -2,8 +2,8 @@
 name = "apng"
 version = "0.3.4"
 authors = [
-  "poccariswet <poccariswet2727@gmail.com>",
-  "Orhun Parmaksız <orhunparmaksiz@gmail.com>",
+    "poccariswet <poccariswet2727@gmail.com>",
+    "Orhun Parmaksız <orhunparmaksiz@gmail.com>",
 ]
 edition = "2021"
 description = "APNG Encoder. But it is tiny yet."
@@ -16,7 +16,7 @@ png = "0.17.7"
 thiserror = "1.0.38"
 byteorder = "1.4.3"
 flate2 = "1.0.25"
-image = { version = "0.24.5", default-features = false, features = ["png"] }
+image = { version = "0.25.2", default-features = false, features = ["png"] }
 
 [features]
 # re-exports png crate
